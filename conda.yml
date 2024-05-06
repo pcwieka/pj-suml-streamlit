@@ -1,0 +1,10 @@
+name: pja-suml
+channels:
+  - defaults
+dependencies:
+  - pandas
+  - streamlit
+  - matplotlib
+  - tensorflow
+  - tf-keras
+  - transformers
