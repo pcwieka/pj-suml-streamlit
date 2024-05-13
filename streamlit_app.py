@@ -24,12 +24,12 @@ option = st.selectbox(
 
 # Translating text from English to German
 if option == "Text translation from English to German":
-    text = st.text_area("Enter the text in English")
+    text = st.text_area("Enter the text in English", max_chars=500)
     if text:
         with st.spinner("Translating..."):
             try:
                 translator = pipeline("translation", model="Helsinki-NLP/opus-mt-en-de")
-                translation = translator(text, max_length=512)
+                translation = translator(text)
                 st.write('Translation to German:')
                 st.text(translation[0]['translation_text'])
                 st.balloons()

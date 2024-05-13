@@ -1,12 +1,7 @@
-name: pja-suml
-channels:
-  - defaults
+name: pja-suml-streamlit
 dependencies:
-  - pandas
   - streamlit
-  - matplotlib
   - tensorflow
   - transformers
   - sentencepiece
-  - keras
   - sacremoses
