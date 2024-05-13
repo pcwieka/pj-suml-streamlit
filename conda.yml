@@ -6,5 +6,7 @@ dependencies:
   - streamlit
   - matplotlib
   - tensorflow
-  - tf-keras
   - transformers
+  - sentencepiece
+  - keras
+  - sacremoses
