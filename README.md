@@ -11,15 +11,5 @@ conda env update -f conda.yml
 ```
 
 ```
-conda activate pja-suml
+conda activate pja-suml-streamlit
 ```
-
-## Application
-
-To run the application execute:
-
-```
-streamlit run streamlit_app.py
-```
-
-

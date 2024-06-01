@@ -5,3 +5,4 @@ dependencies:
   - transformers
   - sentencepiece
   - sacremoses
+  - scikit-learn
