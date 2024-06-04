@@ -1,8 +1,7 @@
 name: pja-suml-streamlit
 dependencies:
-  - streamlit
-  - tensorflow
-  - transformers
-  - sentencepiece
-  - sacremoses
-  - scikit-learn
+  - python=3.11.5
+  - pip
+  - pip:
+      - streamlit==1.32.0
+      - scikit-learn==1.4.2
